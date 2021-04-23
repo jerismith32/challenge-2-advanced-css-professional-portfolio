@@ -15,7 +15,7 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif
 }
 
-/* Header start */
+/* Header Start */
 
 header {
   padding: 20px 35px;
@@ -70,7 +70,7 @@ header h1 {
     text-shadow: none;
   }
 
-/* header end */
+/* Header End */
 
 /* Hero Start */
  
@@ -87,6 +87,12 @@ header h1 {
   }
 
 /* Hero End */
+
+/* About Me Start */
+
+.Dobby{
+    background-image: url('../images/72238810_10220138116984313_7455905454527348736_n-2.jpg')
+}
 
 /* Media Query for Smaller Desktop Screens */
 @media screen and (max-width: 980px) {
