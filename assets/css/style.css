@@ -1,0 +1,16 @@
+:root {
+    --pink: #ffe3eb;
+    --gray: #c8c7c7;
+    --navy: #13294B;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: var(--navy);
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
