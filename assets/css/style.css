@@ -84,6 +84,7 @@ header h1 {
         align-items: flex-start;
         background-attachment: fixed;
         background-position: 80%;
+        font-size: 30px;
   }
 
 /* Hero End */
@@ -93,6 +94,22 @@ header h1 {
 .Dobby{
     background-image: url('../images/72238810_10220138116984313_7455905454527348736_n-2.jpg')
 }
+
+/* Footer Start */
+footer {
+    background: var(--pink);
+    padding: 40px 35px;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  footer h2 {
+    font-size: 30px;
+    margin: 0;
+  }
+/* Footer End */
 
 /* Media Query for Smaller Desktop Screens */
 @media screen and (max-width: 980px) {
