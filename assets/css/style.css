@@ -98,6 +98,10 @@ header h1 {
 .section-title {
     flex: 0 0 20%;
     border-right: solid;
+    border-color: var(--pink);
+    border-right-width: thick;
+    text-align-last: center;
+
 }
 
 .section p {
@@ -105,8 +109,6 @@ header h1 {
     margin-right: 20px;
     flex: 0 0 75%;
 }
-
-/* About Me Start */
 
 
 /* Footer Start */
