@@ -83,7 +83,7 @@ header h1 {
         display: flex;
         justify-content: center;
         align-items: flex-start;
-        background-attachment: fixed;
+        /* background-attachment: fixed; */
         background-position: 80%;
         font-size: 30px;
   }
@@ -98,6 +98,12 @@ header h1 {
 .section-title {
     flex: 0 0 20%;
     border-right: solid;
+}
+
+.section p {
+    margin-left: 20px;
+    margin-right: 20px;
+    flex: 0 0 75%;
 }
 
 /* About Me Start */
