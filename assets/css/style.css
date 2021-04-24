@@ -111,6 +111,29 @@ header h1 {
 }
 
 
+.contact-methods ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
+  
+  .contact-methods ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    flex: 0 0 75%;
+    color: var(--gray);
+  }
+  
+  .contact-methods ul li a:hover {
+    background: var(--gray);
+    color: var(--pink);
+    border-radius: 15px;
+    text-shadow: none;
+  }
+
 /* Footer Start */
 footer {
     background: var(--pink);
