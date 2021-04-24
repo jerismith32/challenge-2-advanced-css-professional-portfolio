@@ -11,8 +11,9 @@
 }
 
 body {
-    color: var(--navy);
-    font-family: Georgia, 'Times New Roman', Times, serif
+    color: var(--gray);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: var(--navy);
 }
 
 /* Header Start */
@@ -89,11 +90,18 @@ header h1 {
 
 /* Hero End */
 
+.section {
+    display: flex;
+    align-items: stretch;
+    margin-top: 20px;
+}
+.section-title {
+    flex: 0 0 20%;
+    border-right: solid;
+}
+
 /* About Me Start */
 
-.Dobby{
-    background-image: url('../images/72238810_10220138116984313_7455905454527348736_n-2.jpg')
-}
 
 /* Footer Start */
 footer {
@@ -108,6 +116,7 @@ footer {
   footer h2 {
     font-size: 30px;
     margin: 0;
+    color: var(--navy);
   }
 /* Footer End */
 
