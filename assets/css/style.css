@@ -92,12 +92,12 @@ header h1 {
 
 /* Content Styling Start */
 
-.section {
+.main-content {
     display: flex;
     align-items: stretch;
     margin-top: 20px;
 }
-.section-title {
+.content-title {
     flex: 0 0 20%;
     border-right: solid;
     border-color: var(--pink);
@@ -107,20 +107,29 @@ header h1 {
 
 }
 
-.section p {
+.main-content p {
     margin-left: 20px;
     margin-right: 20px;
     flex: 0 0 75%;
     font-size: 18px;
 }
 
-.section img {
+.completed-work img {
     max-width: 95%;
     height: auto;
     margin-left: 20px;
 }
 
 #run-buddy {
+    flex: 0 0 80%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.future-work img {
+    max-width: 50%;
+    height: auto;
+    margin-left: 20px;
     flex: 0 0 80%;
     flex-wrap: wrap;
     justify-content: center;
