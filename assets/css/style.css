@@ -127,9 +127,9 @@ header h1 {
 }
 
 .future-work img {
-    max-width: 50%;
+    max-width: 75%;
     height: auto;
-    margin-left: 20px;
+    margin-left: 10px;
     flex: 0 0 80%;
     flex-wrap: wrap;
     justify-content: center;
